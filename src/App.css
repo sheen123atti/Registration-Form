@@ -1,0 +1,67 @@
+*{
+  color: aliceblue;
+  background-color: #282c34;
+}
+.App {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.header {
+  min-height: 15vh;
+  min-width: 97vh;
+  margin: 10px 0 10px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: calc(27px + 4vmin);
+  color: #282c34;
+  background-color: #61dafb;
+  border-radius: 8px;
+}
+.container{
+  margin: 20px 0 20px 0;
+  display: flex;
+  flex-direction: column;
+  width: calc(75vh + 4vmin);
+  height: calc(50vh + 4vmin);
+  border: 3px solid aliceblue;
+  border-radius: 4px;
+  justify-content: center;
+  position: relative;
+}
+.container label{
+  position: absolute;
+  left:8rem;
+}
+.container input{
+  position: absolute;
+  right: 8rem;
+}
+.container select{
+  position: absolute;
+  right: 11.6rem;
+}
+.container button{
+  font-size: 20px;
+  background-color: #61dafb;
+  color: #282c34;
+  border-radius: 8px;
+}
+.container button:hover{
+  cursor: pointer;
+  background-color: #61dafbb5;
+}
+.container button:active{
+  background-color: #61dafb58;
+  transform: translateY(2px);
+}
+.container span{
+  font-size: 15px;
+  color: red;
+}
+.thank p{
+  font-size: 30px;
+}
